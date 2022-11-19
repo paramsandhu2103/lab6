@@ -1,0 +1,131 @@
+@media screen and (min-width: 1280px) {
+    body {
+          max-width: 1280px;
+          margin: 0 auto;
+    }
+
+    .content {
+          width: 1280px;
+          display: flex;
+    }
+
+    main {
+        width: 100%;
+        order: 2;
+    }
+
+  
+}
+
+/* Tablet Screen Sizes */
+@media screen and (max-width: 960px) {
+   
+
+    #main-nav .collapse {
+        display: block;
+    }
+
+    #main-nav > li > span.collapse {
+        display: none;
+    }
+
+    .collapse + ul {
+        position: inherit;
+    }
+
+    #main-nav >  li > a,
+    #main-nav >  li > .collapse + ul > li > a {
+        color: #333;
+        display: inline-block;
+        height: auto;
+    }
+    #featured{
+      display: blockS;
+    }
+
+   
+
+    /* Collapsed Menu */
+    #main-nav{
+        height: 60px;
+        width: fit-content;
+        align-items: center;
+        text-align: center;
+    }
+
+   
+   
+
+     li {
+        text-align: center;
+        margin: 0;
+    }
+
+   
+
+  
+}
+
+@media screen and (max-width: 800px) {
+    #main-nav {
+        display: inherit;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        font-size: 100%;
+        
+    }
+    img{
+        width: 233%;
+    }
+    main{
+        text-align: center;
+    }
+    #inventory{
+       margin: auto;
+
+    }
+    h1{
+        display: inline-block;
+        margin: 2px -1px;
+        width: 226%;
+
+    }
+    h2{
+        margin: 0px 0px ;
+        padding: 0px 0px;
+        left: 0px;
+        top: 0px;
+
+    }
+    .function{
+        margin: 0px auto;
+        font-size: 18px;
+        display: inline-block;
+        float: right;
+    }
+#inventory{
+text-align: center;
+width: 216%;
+}
+h3{
+    text-align: center;
+}
+   footer{
+    width: 225%;
+    margin: 58px 131px;
+    display: inline;
+    padding: 12px 217px;
+   }
+   .footer{
+    margin: 47px -210px;
+    font-size: 18px;
+    display: inline-block;
+    
+
+   }
+   table{
+    width: 100%;
+   }
+  
+}
